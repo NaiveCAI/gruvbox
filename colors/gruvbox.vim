@@ -300,7 +300,7 @@ if exists('g:gruvbox_color_column')
   let s:color_column = get(s:gb, g:gruvbox_color_column)
 endif
 
-let s:vert_split = s:bg2
+let s:vert_split = s:bg0
 if exists('g:gruvbox_vert_split')
   let s:vert_split = get(s:gb, g:gruvbox_vert_split)
 endif
